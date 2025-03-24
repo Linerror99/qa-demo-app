@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title></head>
+<body>
+  <h1>Connexion</h1>
+  <form method="post" action="/login">
+    <label>Nom d'utilisateur :</label>
+    <input type="text" name="username" /><br/>
+    <label>Mot de passe :</label>
+    <input type="password" name="password" /><br/>
+    <button type="submit">Se connecter</button>
+  </form>
+  <p style="color:red;">[[${message}]]</p>
+</body>
+</html>

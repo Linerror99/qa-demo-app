@@ -1,0 +1,40 @@
+# Java & Maven
+target/
+*.class
+*.log
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sonar
+.sonar/
+scannerwork/
+
+# JaCoCo
+jacoco.exec
+
+# Logs
+*.log
+
+# Temp/test files
+*.tmp
+*.bak
+*.swp
+
+# Coverage reports
+target/site/jacoco/
